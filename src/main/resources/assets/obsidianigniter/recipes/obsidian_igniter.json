@@ -1,0 +1,14 @@
+{
+  "type": "forge:ore_shapeless",
+  "result": {
+    "item": "obsidianigniter:obsidian_igniter"
+  },
+  "ingredients": [
+    {
+      "item": "obsidianigniter:obsidian_shard"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ]
+}
