@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "result": {
+    "item": "minecraft:obsidian"
+  },
+  "ingredients": [
+    {
+      "item": "obsidianigniter:obsidian_shard"
+    },
+	{
+      "item": "obsidianigniter:obsidian_shard"
+    },
+	{
+      "item": "obsidianigniter:obsidian_shard"
+    },
+	{
+      "item": "obsidianigniter:obsidian_shard"
+    }
+  ]
+}

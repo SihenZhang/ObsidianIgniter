@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class ObsidianIgniter {
     public static final String MODID = "obsidianigniter";
     public static final String NAME = "Obsidian Igniter";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
 
     @SidedProxy(clientSide = "com.sihenzhang.obsidianigniter.proxy.ClientProxy", serverSide = "com.sihenzhang.obsidianigniter.proxy.ServerProxy")
     public static CommonProxy proxy;
@@ -21,7 +21,7 @@ public class ObsidianIgniter {
     @Mod.Instance
     public static ObsidianIgniter instance;
 
-    private static Logger logger;
+    public static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {

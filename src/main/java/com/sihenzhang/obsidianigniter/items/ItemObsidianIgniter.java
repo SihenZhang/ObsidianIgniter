@@ -1,6 +1,7 @@
 package com.sihenzhang.obsidianigniter.items;
 
 import com.sihenzhang.obsidianigniter.ObsidianIgniter;
+import com.sihenzhang.obsidianigniter.config.MainConfig;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -33,7 +34,7 @@ public class ItemObsidianIgniter extends ItemFlintAndSteel {
             return EnumActionResult.SUCCESS;
         }
         Random r = new java.util.Random();
-        if (r.nextDouble() < 0.05) {
+        if (r.nextDouble() < MainConfig.chance) {
             return super.onItemUse(player, worldIn, pos, hand, facing, hitX, hitY, hitZ);
         }
         player.getHeldItem(hand).damageItem(1, player);
